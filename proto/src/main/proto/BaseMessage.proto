@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.dongyang.grpc.demo.protocol";
+option java_outer_classname = "BaseMessageProto";
+
+message HelloRequest {
+  string msg = 1;
+}
+
+message HelloResponse {
+  string msg = 1;
+}

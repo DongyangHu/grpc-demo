@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BaseMessage.proto";
+
+option java_package = "com.dongyang.grpc.demo.protocol";
+option java_outer_classname = "HelloRpcProto";
+
+service HelloRpcService {
+  // hello
+  rpc sayHello(HelloRequest) returns (HelloResponse) {
+
+  }
+}
